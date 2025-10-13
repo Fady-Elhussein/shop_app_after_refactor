@@ -12,7 +12,6 @@ import 'shared/styles/themes.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   Bloc.observer = MyBlocObserver();
-
   DioHelper.init();
   await CacheHelper.init();
   bool boardingShown = CacheHelper.getData(key: 'boardingShown') ?? false;
