@@ -12,13 +12,9 @@ import '../register_screen/register_screen.dart';
 
 class ShopLoginScreen extends StatelessWidget {
   ShopLoginScreen({super.key});
-
   final TextEditingController _emailController = TextEditingController();
-
   final TextEditingController _passwordController = TextEditingController();
-
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
-
   final bool _isPasswordVisible = true;
 
   @override
