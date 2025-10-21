@@ -47,8 +47,12 @@ class _CustomTextFormFieldState extends State<CustomTextFormField> {
     super.dispose();
   }
 
+  int i = 0;
+
   @override
   Widget build(BuildContext context) {
+    print('Rebuilding CustomTextFormField $i');
+    i++;
     return TextFormField(
       cursorColor: Colors.blue,
       controller: controller,
