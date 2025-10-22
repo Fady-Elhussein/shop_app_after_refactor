@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 
-Widget defultButton({
+Widget defaultButton({
   double width = double.infinity,
   required Function? Function() function,
   required String text,

@@ -184,7 +184,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           height: 25.0,
                         ),
                         state is! ShopRegisterLoadingState
-                            ? defultButton(
+                            ? defaultButton(
                                 width: double.infinity,
                                 function: () {
                                   if (formkey.currentState!.validate()) {

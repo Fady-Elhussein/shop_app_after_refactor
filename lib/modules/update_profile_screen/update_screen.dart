@@ -114,7 +114,7 @@ class UpdateScreen extends StatelessWidget {
                         const SizedBox(
                           height: 25.0,
                         ),
-                        defultButton(
+                        defaultButton(
                           width: double.infinity,
                           function: () {
                             if (formkey.currentState!.validate()) {
